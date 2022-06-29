@@ -1,6 +1,6 @@
 {
   "name": "@dependabot-fixtures/npm-intermediate-dependency-5",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "a test fixture for testing transitive dependency updates",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dependabot-fixtures/npm-intermediate-dependency-5/issues"
   },
-  "homepage": "https://github.com/dependabot-fixtures/npm-intermediate-dependency-5#readme"
+  "homepage": "https://github.com/dependabot-fixtures/npm-intermediate-dependency-5#readme",
+  "dependencies": {
+    "@dependabot-fixtures/npm-intermediate-dependency-6": "0.0.1"
+  }
 }
